@@ -1,0 +1,43 @@
+# Common node_modules and builds
+node_modules/
+dist/
+dist-ssr/
+build/
+out/
+.next/
+
+# Vite / Frontend specifics
+bqs-ui/node_modules/
+bqs-ui/dist/
+bqs-ui/.env
+bqs-ui/.env.local
+bqs-ui/.env.development.local
+bqs-ui/.env.test.local
+bqs-ui/.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+.classpath
+
+# Misc
+.cache/
+.npm/
+.eslintcache
